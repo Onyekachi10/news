@@ -354,12 +354,10 @@ img {
         font-size: 15px;
         margin-bottom: 55pc;
     }
-
-    div#below {
+div#below {
         position: absolute;
-        bottom: -250%;
+        bottom: -280%;
          }
-      
     img {
         width: 120px;
        position: relative;
