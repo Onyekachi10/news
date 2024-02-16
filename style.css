@@ -208,8 +208,8 @@ img {
 
 @media screen and (max-width:990px) and (min-width:600px) {
 
-    body {
-        overflow: hidden;
+    article {
+        overflow-y: hidden;
 
     }
 
@@ -268,8 +268,8 @@ img {
 /* MOBILE VIEW SECTION  */
 
 @media screen and (max-width:599px) and (min-width:400px) {
-    body {
-        overflow: hidden;
+    article {
+        overflow-y: hidden;
 
     }
 
@@ -334,8 +334,8 @@ img {
 
 @media screen and (max-width:400px) and (min-width:280px) {
 
-    body {
-        overflow: hidden;
+  article {
+        overflow-y: hidden;
 
     }
 
