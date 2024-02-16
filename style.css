@@ -115,8 +115,7 @@ div#below {
     margin-top: 7pc;
     font-family: monospace;
 }
-
-h4,h5,.led {
+h4,h5,.led,.led-2,.led-3 {
     margin-left: 9pc;
     position: relative;
     bottom: 7pc; 
