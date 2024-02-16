@@ -154,7 +154,7 @@ img {
 @media screen and (max-width:1048px) {
 
     body {
-        overflow-x: hidden;
+        overflow: hidden;
 
     }
 
@@ -209,7 +209,7 @@ img {
 @media screen and (max-width:990px) and (min-width:600px) {
 
     body {
-        overflow-x: hidden;
+        overflow: hidden;
 
     }
 
@@ -269,7 +269,7 @@ img {
 
 @media screen and (max-width:599px) and (min-width:400px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
 
     }
 
@@ -335,7 +335,7 @@ img {
 @media screen and (max-width:400px) and (min-width:280px) {
 
     body {
-        overflow-x: hidden;
+        overflow: hidden;
 
     }
 
