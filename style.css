@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Epilogue";
-   overflow-x: hidden;
 }
 
 /* NAVBAR SECTION */
@@ -116,6 +115,7 @@ div#below {
     margin-top: 7pc;
     font-family: monospace;
 }
+
 h4,h5,.led,.led-2,.led-3 {
     margin-left: 9pc;
     position: relative;
@@ -152,6 +152,12 @@ img {
 /* TABLET VIEW SECTION */
 
 @media screen and (max-width:1048px) {
+
+    body {
+        overflow-x: hidden;
+
+    }
+
    
     a.navbar-brand {
         margin-left: 1pc;
@@ -201,6 +207,12 @@ img {
 /* TABLET VIEW SECTION 2 */
 
 @media screen and (max-width:990px) and (min-width:600px) {
+
+    body {
+        overflow-x: hidden;
+
+    }
+
     
     a.nav-link {
         position: relative;
@@ -256,6 +268,12 @@ img {
 /* MOBILE VIEW SECTION  */
 
 @media screen and (max-width:599px) and (min-width:400px) {
+    body {
+        overflow-x: hidden;
+
+    }
+
+
     a.nav-link {
         position: relative;
         left: 1pc;
@@ -316,6 +334,10 @@ img {
 
 @media screen and (max-width:400px) and (min-width:280px) {
 
+    body {
+        overflow-x: hidden;
+
+    }
 
     a.nav-link {
         position: relative;
@@ -355,10 +377,12 @@ img {
         font-size: 15px;
         margin-bottom: 55pc;
     }
-div#below {
+
+    div#below {
         position: absolute;
         bottom: -280%;
          }
+      
     img {
         width: 120px;
        position: relative;
