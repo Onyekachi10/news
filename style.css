@@ -334,8 +334,8 @@ img {
 
 @media screen and (max-width:400px) and (min-width:280px) {
 
-  article {
-        overflow-x: hidden;
+  body {
+        overflow: hidden;
 
     }
 
