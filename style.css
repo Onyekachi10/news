@@ -27,7 +27,7 @@ a.nav-link:hover {
 
 /* BODY SECTION */
 
-body {
+article {
     overflow-x: hidden;
     background-color: hsl(36, 100%, 99%);
 }
@@ -153,8 +153,8 @@ img {
 
 @media screen and (max-width:1048px) {
 
-    body {
-        overflow: hidden;
+    article {
+        overflow-x: hidden;
 
     }
 
@@ -209,7 +209,7 @@ img {
 @media screen and (max-width:990px) and (min-width:600px) {
 
     article {
-        overflow-y: hidden;
+        overflow-x: hidden;
 
     }
 
@@ -269,7 +269,7 @@ img {
 
 @media screen and (max-width:599px) and (min-width:400px) {
     article {
-        overflow-y: hidden;
+        overflow-x: hidden;
 
     }
 
@@ -335,7 +335,7 @@ img {
 @media screen and (max-width:400px) and (min-width:280px) {
 
   article {
-        overflow-y: hidden;
+        overflow-x: hidden;
 
     }
 
